@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="Digits - 6056.mp4" type="video/mp4">
+      </video>
+    <div class="container">
+        <div id="timer">
+            <span class="number" id="hr">00</span>            
+            <span class="block">Hour</span>
+            <span class="number" id="min">00</span>
+            <span class="block">Minute</span>
+            <span class="number" id="sec">00</span>
+            <span class="block">Second</span>
+            <span class="number" id="count">00</span>       
+        </div>
+        <div id="buttons">
+            <button class="btn" id="start">Start</button>
+            <button class="btn" id="stop">Stop</button>
+            <button class="btn" id="reset">Reset</button>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
